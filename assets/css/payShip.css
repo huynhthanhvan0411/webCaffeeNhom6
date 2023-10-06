@@ -1,0 +1,231 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    color: #717171;
+}
+
+ ::selection {
+    background-color: #ec7532;
+    color: white;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+table {
+    width: 100%;
+}
+
+
+/* PAY LEFT */
+
+.payLeft {
+    padding-left: 8rem;
+}
+
+.payLeft h2 {
+    font-size: 1.75rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.payLeft h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.payShip--header p {
+    margin-top: 8px;
+}
+
+.payShip--content {
+    box-shadow: 0 0 0 1px #d9d9d9;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.989);
+}
+
+.payShip--box {
+    padding: 20px 15px;
+}
+
+.payShip--content h6 {
+    color: #120101df;
+    margin: 10px 0;
+}
+
+.payShip--content {
+    font-size: 1rem;
+}
+
+.payShip--footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.payShip--footer a {
+    text-decoration: none;
+}
+
+.payShip--footer .btnComeback {
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 1.4em 1.7em;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    position: relative;
+    background: #338dbc;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* PAY RIGHT */
+
+.payRight {
+    background-color: #FAFAFA;
+    height: 100%;
+    padding: 50px 45px 0 45px;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip: rect(0 0 0 0);
+    width: 2px;
+    height: 2px;
+    margin: -2px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.product .product-image .product-thumbnail {
+    width: 4.6em;
+    height: 4.6em;
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+}
+
+.product .product-image .product-thumbnail .product-thumbnail-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.product .product-image .product-thumbnail .product-thumbnail-wrapper .product-thumbnail-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.product .product-image .product-thumbnail .product-thumbnail-quantity {
+    font-size: 0.85714em;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0.15em 0.65em;
+    border-radius: 2em;
+    background-color: rgba(153, 153, 153, 0.9);
+    color: #fff;
+    position: absolute;
+    right: -0.75em;
+    top: -0.75em;
+    z-index: 2;
+}
+
+.product .product-image .product-thumbnail::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.product .product-description {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.product .product-description .product-description-name,
+.product .product-description .product-description-variant,
+.product .product-description .product-description-property {
+    display: block;
+}
+
+.product .product-price {
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.payRight__info {
+    margin-bottom: 20px;
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 0;
+    text-align: left;
+}
+
+td:last-child,
+th:last-child {
+    text-align: right;
+}
+
+.total-line {
+    padding: 30px;
+}
+
+.total-line td {
+    padding-top: 0.75em;
+}
+
+.total-line-table-footer .total-line td {
+    padding-top: 3em;
+    position: relative;
+}
+
+.total-line-table-footer .total-line td::before {
+    background-color: #e1e1e1;
+    content: '';
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}

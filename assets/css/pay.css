@@ -1,0 +1,117 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    color: #717171;
+}
+
+::selection {
+    background-color: #ec7532;
+    color: white;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+table {
+    width: 100%;
+}
+
+
+/* PAY LEFT */
+
+.payLeft {
+    padding-left: 8rem;
+}
+
+.payInfor h2 {
+    font-size: 1.75rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.step--Infor h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.step--Infor input {
+    width: 100%;
+    box-shadow: 0 0 0 1px #d9d9d9;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.94em 2.8em 0.94em 0.8em;
+    word-break: normal;
+    border: none;
+    margin: 15px 0;
+}
+
+.stepInfor--address section {
+    padding: 10px 5px;
+}
+
+.stepInfor--address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step--footer {
+    margin: 20px 0;
+}
+
+.step--footer input {
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 1.4em 1.4em;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background: #338dbc;
+    margin: auto;
+    display: block;
+}
+
+
+/* PAYRIGHT */
+.btn-pay{
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 1.4em 1.7em;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    position: relative;
+    background: #338dbc;
+    color: white;
+    text-decoration: none;
+    margin:20px 0 0 0 ;
+}
+.btn-pay:hover{
+    color: white;
+}
